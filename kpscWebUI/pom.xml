@@ -3,6 +3,12 @@
   <artifactId>kpscWebUI</artifactId>
   <packaging>war</packaging>
   <name>kpscWebUI</name>
+  <parent>
+  	<groupId>io.pivotal.run.sc</groupId>
+  	<artifactId>build</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	<relativePath>../build</relativePath>
+  </parent>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -24,10 +30,9 @@
       </plugin>
     </plugins>
   </build>
-  <parent>
-  	<groupId>io.pivotal.run.sc</groupId>
-  	<artifactId>build</artifactId>
-  	<version>0.0.1-SNAPSHOT</version>
-  	<relativePath>../build</relativePath>
-  </parent>
+  <dependencies>
+  	<dependency>
+  		<
+  	</dependency>
+  </dependencies>
 </project>
