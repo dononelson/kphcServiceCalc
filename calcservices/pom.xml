@@ -4,6 +4,7 @@
     <groupId>org.sc</groupId>
     <artifactId>build</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+  	<relativePath>../build</relativePath>
   </parent>
   <groupId>org.sc</groupId>
   <artifactId>calcservices</artifactId>

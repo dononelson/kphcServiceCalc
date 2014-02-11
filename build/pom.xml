@@ -11,6 +11,7 @@
 		<module>../crudservices</module>
 		<module>../wsservices</module>
 		<module>../utils</module>
+		<module>../calcservices</module>
 	</modules>
 	<repositories>
 		<repository>
