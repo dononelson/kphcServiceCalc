@@ -1,14 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.pivotal.run.sc</groupId>
+	<groupId>org.sc</groupId>
 	<artifactId>build</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>build</name>
 	<modules>
-		<module>../kpscWebUI</module>
-		<module>../services</module>
+		<module>../webui</module>
+		<module>../crudservices</module>
+		<module>../wsservices</module>
 		<module>../utils</module>
 	</modules>
 	<repositories>
@@ -63,4 +64,12 @@
 		</dependency>
 
 	</dependencies>
+	<properties>
+		<spring_version>1</spring_version>
+		<java_version>1.7</java_version>
+		<mysql_version>1.0</mysql_version>
+		<junit_version>1</junit_version>
+		<spring_cloud_version>1</spring_cloud_version>
+		<testng_version>1</testng_version>
+	</properties>
 </project>

@@ -7,8 +7,8 @@
   	<relativePath>../build</relativePath>
   </parent>
   <groupId>org.sc</groupId>
-  <artifactId>utils</artifactId>
+  <artifactId>crudservices</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>utils</name>
-  <description>Service calculator utilities</description>
+  <name>crudservices</name>
+  <description>CRUD</description>
 </project>
