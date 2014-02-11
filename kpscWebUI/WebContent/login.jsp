@@ -8,7 +8,7 @@
 </head>
 <body>
 <center>
-        <form action=LoginServlet>
+        <form action=LoginController>
             <table border=1>
                 <tr>
                     <th colspan="2">KP Service Calulator Login</th>

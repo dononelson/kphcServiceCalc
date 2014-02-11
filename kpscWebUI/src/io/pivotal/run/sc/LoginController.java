@@ -1,4 +1,4 @@
-package io.pivotal.run.tc;
+package io.pivotal.run.sc;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -26,7 +26,7 @@ public class LoginController extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		response.getWriter().print("There's no way you could have defeated the password! - Arrrggggghhh (and the villan dies)");
 	}
 
 	/**
@@ -34,6 +34,7 @@ public class LoginController extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		response.getWriter().print("There's no way you could have defeated the password! - Arrrggggghhh (and the villan dies)");
 	}
 
 }
